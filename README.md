@@ -10,6 +10,7 @@ Counting the unique words coming from a file
 
 
 ### Regular Expressions:
+Collecting all the words from 3 to 15 characters in length 
 ```
 match_pattern = re.findall(r'\b[a-z]{3,15}\b', final_text)
 ```
